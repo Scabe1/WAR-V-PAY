@@ -1,0 +1,61 @@
+#MLB Player Salary vs WAR Analysis
+##Author
+Gabriel Garcia  
+Data Science Undergraduate – Arizona State University
+
+This project analyzes the relationship between MLB player salaries and their Wins Above Replacement (WAR) to identify inefficiencies in player compensation.
+
+---
+
+## Project Objective
+To evaluate whether player salaries align with on-field performance, and to identify potentially overpaid or underpaid players using WAR as a performance benchmark.
+
+---
+
+## Dataset
+- Sample of 200 MLB players
+- Features include:
+  - Player salary
+  - WAR (Wins Above Replacement)
+
+Dataset source: compiled CSV dataset for academic analysis.
+
+---
+
+## Methodology
+- Data cleaning and preprocessing using Pandas
+- Exploratory Data Analysis (EDA) to:
+  - Examine salary distributions
+  - Analyze WAR distributions
+  - Identify outliers
+- Visualization of salary vs. WAR relationships using Matplotlib
+
+---
+
+## Key Findings
+- Salary and WAR show a weak-to-moderate correlation
+- Several players appear statistically overpaid relative to their WAR
+- High salary does not consistently translate to high performance
+
+---
+
+## Tools & Technologies
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## How to Run
+1. Clone the repository
+2. Open the Jupyter notebook in `war_v_pay/`
+3. Run all cells to reproduce the analysis
+
+---
+
+## Future Improvements I plan to Implement
+- Expand dataset to multiple seasons
+- Add regression modeling, allowing age to play a big role in the analysis
+- Normalize salary by position
+- Incorporate additional performance metrics
